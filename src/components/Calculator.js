@@ -44,6 +44,8 @@ export default function Calculator({
     }
   };
 
+  if (!currencies || currencies.length === 0) return null;
+
   return (
     <div>
       <Box
@@ -83,6 +85,7 @@ export default function Calculator({
               </Box>
               <NativeSelect
                 input={<OutlinedInput />}
+                defaultValue="ethereum"
                 {...register("inputCurrency", { required: true })}
               >
                 {currencies.map((item) => (
