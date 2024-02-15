@@ -1,0 +1,9 @@
+{
+  "short_name": "Crypto calculator",
+  "name": "Crypto calculator",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
